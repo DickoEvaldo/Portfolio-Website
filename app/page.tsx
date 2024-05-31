@@ -32,14 +32,14 @@ export default function Home() {
         <h2 style={{ color:'gray' }}className="pl-10 text-xl">Introduction</h2>
         <h1 style={{ color:'#2d334a' }}className="mt-2 pl-10 font-bold text-4xl" >About Me</h1>
         <h1 style={{ color:'#2d334a' }}className="mt-2 pl-10 text-xl" >
-          I'm a Computer Science Student at UNSW that is especially interested in Web Development, Software Development, Databasae Management. I have several experience with Backend Development using JavaScript, Express.js and Java. I learn new skills quickly and able to adapt to new environments.
+          I'm a Computer Science Student at UNSW that is especially interested in Web Development, Software Development, Database Management. I have several experience with Backend Development using JavaScript, Express.js and Java. I learn new skills quickly and able to adapt to new environments.
         </h1>
 
         <h1 style={{ color:'#2d334a' }}className="mt-20 pl-10 font-bold text-4xl" >My Projects</h1>
         <div className="mt-10 pl-10 grid grid-cols-3 gap-12">
           <div className="flex flex-col p-10 bg-white rounded-md">
             <h1 style={{ color:'#2d334a' }}className="font-bold text-2xl" >My Fridge</h1>
-            <h1 style={{ color:'#2d334a' }}className="mt-5 text-xl" >With every scan, MyFridge provides personalized health ratings and recommendations tailored to your specific health conditions and goals, offering insightful guidance for each item.</h1>
+            <h1 style={{ color:'#2d334a' }}className="mt-5 text-xl" >With every Receipt Scan, MyFridge provides personalized health ratings and recommendations tailored to your specific health conditions and goals.</h1>
           </div>
           <div className="flex flex-col p-10 bg-white rounded-md">
             <h1 style={{ color:'#2d334a' }}className="font-bold text-2xl" >Portfolio Website</h1>
