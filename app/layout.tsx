@@ -16,7 +16,26 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body style={{ backgroundColor: '#fffffe' }} className={`flex min-h-screen flex-col ${inter.className}`}>
+        <div style={{ backgroundColor: '#fffffe' }} className="text-black navbar bg-base-100">
+        <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
+          <div className="w-10 rounded-full">
+            <img alt="Tailwind CSS Navbar component" src="https://i.pinimg.com/originals/8e/3d/b9/8e3db98c9f6569e71a1a4f998988d92d.gif" />
+          </div>
+        </div>
+        <div className="flex-1">
+          <a href="" className="btn btn-ghost text-xl">Dicko Evaldo</a>
+        </div>
+        <div className="flex-none">
+          <ul className="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Projects</a></li>
+            <li><a>Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <main>{children}</main> {/* Ensure children are rendered here */}
+    </body>
     </html>
   );
 }
